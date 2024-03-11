@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="Arunlal Panja">
+  <title>Contact</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.3/components/blogs/blog-3/assets/css/blog-3.css">
+  <style>
+    #offcanvasTop {
+      --bs-offcanvas-height: 100vh;
+      background-color: #c5e1d4;
+    }
+
+    .navbar-brand img{
+        width: 120px;
+    }
+
+    header .navbar{
+        backdrop-filter: blur(10px); /* Apply backdrop blur */
+        background-color: aliceblue;
+
+    }
+
+    header .nav-item:hover{
+        text-decoration: underline;
+        text-decoration-color: rgb(37, 37, 57);
+        text-underline-offset: 5px;
+        text-decoration-thickness: 2px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header Block -->
+  <header id="site-header ">
+    <nav class="navbar navbar-expand-lg   fixed-top " >
+      <div class="container ">
+        <a class="navbar-brand fw-bold" href="index.html"><img src="imgs/G3A_Logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav  mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link active" href="#">Contact</a>
+            </li> -->
+          </ul>
+          <div class="d-flex">
+            <button class="btn btn-sm " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"> Contact G3A <i class="fas fa-phone ms-2"></i></button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Offcanvas Block -->
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+      <div class="container pt-5">
+        <div class="offcanvas-header">
+          <h2 class="fw-bold pb-3">Search here</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <form class="position-relative" action="#" method="post">
+            <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="Examples: posts, services,..">
+            <button class="position-absolute top-0 end-0 border-0 bg-transparent py-2 pe-2 text-secondary" type="submit" name="search"><i class="fas fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <main class="mt-5 py-5">
+    <div class="container py-5">
+      <div class="row g-5">
+        <!-- Contact Information Block -->
+        <div class="col-xl-6">
+          <div class="row row-cols-md-2 g-4">
+            <div class="aos-item" data-aos="fade-up" data-aos-delay="200">
+              <div class="aos-item__inner">
+                <div class="bg-light hvr-shutter-out-horizontal d-block p-3">
+                  <div class="d-flex justify-content-start">
+                    <i class="fas fa-envelope h3 pe-2"></i>
+                    <span class="h5">Email</span>
+                  </div>
+                  <span>example@domain.com</span>
+                </div>
+              </div>
+            </div>
+            <div class="aos-item" data-aos="fade-up" data-aos-delay="400">
+              <div class="aos-item__inner">
+                <div class="bg-light hvr-shutter-out-horizontal d-block p-3">
+                  <div class="d-flex justify-content-start">
+                    <i class="fas fa-phone h3 pe-2"></i>
+                    <span class="h5">Phone</span>
+                  </div>
+                  <span>+0123456789, +9876543210</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="aos-item mt-4" data-aos="fade-up" data-aos-delay="600">
+            <div class="aos-item__inner">
+              <div class="bg-light hvr-shutter-out-horizontal d-block p-3">
+                <div class="d-flex justify-content-start">
+                  <i class="fas fa-location-pin h3 pe-2"></i>
+                  <span class="h5">Office location</span>
+                </div>
+                <span>#007, Street name, Bigtown BG23 4YZ, England</span>
+              </div>
+            </div>
+          </div>
+          <div class="aos-item" data-aos="fade-up" data-aos-delay="800">
+            <div class="mt-4 w-100 aos-item__inner">
+              <iframe class="hvr-shadow" width="100%" height="345" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+()&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">measure acres/hectares on map</a></iframe>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form Block -->
+        <div class="col-xl-6">
+          <h2 class="pb-4">Leave a message</h2>
+          <div class="row g-4">
+            <div class="col-6 mb-3">
+              <label for="exampleFormControlInput1" class="form-label">First Name</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John">
+            </div>
+            <div class="col-6 mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Doe">
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Phone</label>
+            <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="+1234567890">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Country</label>
+            <select class="form-select" aria-label="Default select example">
+              <option value="1">USA</option>
+              <option value="2">Non USA</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button type="button" class="btn btn-dark">Send Message</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer Block -->
+  <footer id="site-footer">
+    <div class="bg-success bg-opacity-25 py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-xl-3 col-sm-12">
+            <h5 class="pb-3"><i class="fas fa-user-group pe-1"></i> About us</h5>
+            <span class="text-secondary">This is a wider card with supporting text below as a natural lead-in to additional content.</span>
+          </div>
+          <div class="col-md-6 col-xl-3 col-sm-12">
+            <h5 class="pb-3"><i class="fas fa-link pe-1"></i> Important links</h5>
+            <ul>
+              <li><a href="#" class="text-decoration-none link-secondary">About us</a></li>
+              <li><a href="#" class="text-decoration-none link-secondary">Privacy policy</a></li>
+              <li><a href="#" class="text-decoration-none link-secondary">Terms of services</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-xl-3 col-sm-12">
+            <h5 class="pb-3"><i class="fas fa-location-dot pe-1"></i> Our location</h5>
+            <span class="text-secondary">
+              Milannagar bazar<br>
+              Tamluk, East Medinipore, West Bengal<br>
+              720001, India<br>
+            </span>
+          </div>
+          <div class="col-md-6 col-xl-3 col-sm-12">
+            <h5 class="pb-3"><i class="fas fa-paper-plane pe-1"></i> Stay updated</h5>
+            <form>
+              <input type="text" class="w-100 mb-2 form-control" name="" placeholder="Email ID">
+              <button class="w-100 btn btn-dark">Subscribe now</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-dark py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item"><a class="btn btn-outline-secondary" href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a class="btn btn-outline-secondary" href="#"><i class="fab fa-youtube"></i></a></li>
+              <li class="list-inline-item"><a class="btn btn-outline-secondary" href="#"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a class="btn btn-outline-secondary" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+              <li class="list-inline-item"><a class="btn btn-outline-secondary" href="#"><i class="fab fa-github"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-sm-12"><span class="text-secondary pt-1 float-md-end float-sm-start">Copyright &copy; 2023</span></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JavaScript Bundle with Popper -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://unpkg.com/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://unpkg.com/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
