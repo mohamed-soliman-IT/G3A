@@ -997,6 +997,9 @@ header .nav-item:focus {
 
 @media screen and (max-width: 468px){
 
+    .banner .content{
+        padding-top:5%;
+    }
 
     /* services-sec responsive*/
 
