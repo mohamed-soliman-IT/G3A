@@ -1260,75 +1260,91 @@ header .nav-item:focus {
 
     /* services-sec responsive*/
 
-    .services-sec {
-        height: 70vh;
+ /* Services Section */
+
+ .services-sec {
+    position: relative; /* Set positioning context */
+    background-color: rgb(10, 10, 29);
+    background-image: url('imgs/contact-us-world-img.png');
+    background-size: contain;
+    background-blend-mode: color-burn;
+    height: 70vh;
+    /* margin-top: 20px; */
+}
 
 
-    }
-
-    .services-sec h5 {
-        position: absolute;
-        top: 1%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    .services-sec h3 {
-        position: absolute;
-        top: 5.5%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 36px;
-    }
-
-    .services-sec h4 {
-        color: white;
-        position: absolute;
-        top: 4.9%;
-        left: 62.8%;
-        font-weight: 100;
-        font-size: 20px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-
-    .services-sec .row {
-        position: absolute;
-        top: 48%;
-        left: 60%;
-        gap:5%;
-        transform: translate(-50%, -50%);
-    }
-
-    .services-sec .card{
-
-        margin-left:100px;
-        margin-right:100px;
-
-        height: 220px;
-        width: 290px;
-        border-color: rgba(0, 0, 0, 0.359);
-    }
 
 
-    .services-sec .card-title {
-        font-size: 22px;
-        font-weight: bold;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
+.services-sec h5 {
+    color: rgba(255, 255, 255, 0.537);
+    position: absolute;
+    top: 12%;
+    left: 43.6%;
+    padding-bottom: 2px;
+    transform: translate(-198%, -80%);
+    font-size: 15px;
+    font-weight: bold;
+}
 
-    .services-sec .card-text {
-        font-size: 16px;
-        font-family: poppins-semibold;
-        overflow-wrap: break-word;
-    }
+.services-sec h3 {
+    color: white;
+    position: absolute;
+    top: 18%;
+    left: 58%;
+    transform: translate(-198%, -80%);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.services-sec h4 {
+    color: white;
+    position: absolute;
+    padding-top: 45px;
+    top: 22%;
+    left: 42%;
+    transform: translate(-198%, -80%);
+    font-weight: 100;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.services-sec .row {
+    position: absolute;
+    top: 41%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.services-sec .card-title {
+    padding: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.services-sec .card-text {
+    font-size: 15px;
+    font-family: poppins-semibold;
+    overflow-wrap: break-word;
+}
 
 
-    .services-sec .img-abs {
-        position: absolute;
-        top: 78.5%;
-        left: 42%;
-        transform: translate(-98%, -50%);
-    }
+.services-sec .card{
+    height: 160px;
+    border-color: rgba(0, 0, 0, 0.359);
+
+}
+
+.services-sec .img-abs {
+    position: absolute;
+    top: 78%;
+    left: 45%;
+    transform: translate(-98%, -50%);
+}
+
+
+ /*End  Services Section */
 
 
     /*End  services-sec responsive*/
