@@ -1331,7 +1331,8 @@ header .nav-item:focus {
 
 
 .services-sec .card{
-    height: 160px;
+    height: 180px;
+    width:auto;
     margin-left:30%;
     margin-right:30%;
     border-color: rgba(0, 0, 0, 0.359);
