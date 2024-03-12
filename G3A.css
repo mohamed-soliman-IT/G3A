@@ -1294,13 +1294,14 @@ header .nav-item:focus {
     .services-sec .row {
         position: absolute;
         top: 48%;
-        left: 56%;
+        left: 60%;
         transform: translate(-50%, -50%);
     }
 
     .services-sec .card{
-        margin-left: 145px;
-        margin-right: 110px;
+
+        gap:10px;
+
         height: 220px;
         width: 290px;
         border-color: rgba(0, 0, 0, 0.359);
