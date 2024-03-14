@@ -653,10 +653,10 @@ header .nav-item:focus {
 
     .services-sec h3 {
         position: absolute;
-        top: 5.5%;
+        top: 3.5%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 21px;
+        font-size: 18px;
 
     }
 
@@ -674,7 +674,7 @@ header .nav-item:focus {
 
         position: absolute;
         top: 45%;
-        left: 29%;
+        left: 30%;
         transform: translate(-50%, -50%);
     }
 
@@ -742,7 +742,7 @@ header .nav-item:focus {
     }
 
 
- }
+}
 
 /* Small devices (phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -824,12 +824,12 @@ header .nav-item:focus {
     }
 
     .services-sec .row {
-
-        position: absolute;
-        top: 48%;
-        left: 45%;
-        transform: translate(-50%, -50%);
+        display: flex;
+        /* transform: translate(-50%, -50%); */
+        padding-top: 12%;
     }
+
+
 
     .services-sec .card-title {
         font-size: 18px;
@@ -845,8 +845,8 @@ header .nav-item:focus {
 
 
     .services-sec .card{
-        margin-left: 105px;
-        margin-right: 90px;
+        margin-left: 45px;
+        margin-right: 190px;
         height: 220px;
         width: 200px;
         border-color: rgba(0, 0, 0, 0.359);
@@ -856,7 +856,7 @@ header .nav-item:focus {
     .services-sec .img-abs {
         position: absolute;
         top: 78%;
-        left: 85%;
+        left: 70%;
         transform: translate(-98%, -50%);
     }
 
@@ -902,7 +902,7 @@ header .nav-item:focus {
 
 
 
- }
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -983,12 +983,12 @@ header .nav-item:focus {
     }
 
     .services-sec .row {
-
-        position: absolute;
-        top: 43%;
-        left: 48%;
-        transform: translate(-50%, -50%);
+        display: flex;
+        /* transform: translate(-50%, -50%); */
+        padding-top: 10%;
     }
+
+
 
     .services-sec .card-title {
         font-size: 18px;
@@ -1004,8 +1004,8 @@ header .nav-item:focus {
 
 
     .services-sec .card{
-        margin-left: 135px;
-        margin-right: 90px;
+        margin-left: 100px;
+        margin-right: 130px;
         height: 220px;
         width: 220px;
         border-color: rgba(0, 0, 0, 0.359);
@@ -1061,8 +1061,6 @@ header .nav-item:focus {
 
 
  }
-
-
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -1143,16 +1141,16 @@ header .nav-item:focus {
     }
 
     .services-sec .row {
-
-        position: absolute;
-        top: 43%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        display: flex;
+        /* transform: translate(-50%, -50%); */
+        padding-top: 8%;
+        margin-right: 10%;
     }
 
+
     .services-sec .card{
-        margin-left: 145px;
-        margin-right: 110px;
+        margin-left: 125px;
+        margin-right: 130px;
         height: 220px;
         width: 260px;
         border-color: rgba(0, 0, 0, 0.359);
@@ -1223,7 +1221,212 @@ header .nav-item:focus {
 
  }
 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
 
+    /* info section responsive */
+    .info-sec .row{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-left: 15%;
+    }
+
+    .info-sec .row .card1 h3{
+        font-size: 13px;
+        font-weight: bold;
+        color: rgb(37, 37, 57);
+
+    }
+
+    .info-sec .row .card1 h4{
+        font-size: 12px;
+        color: rgb(37, 37, 57);
+    }
+
+
+
+    .info-sec .row .card1 i{
+        padding-right: 15px;
+        font-size: 45px;
+    }
+
+    /* info section responsive */
+
+
+
+    /* services-sec responsive*/
+
+    .services-sec {
+        height: 70vh;
+
+
+    }
+
+    .services-sec h5 {
+        position: absolute;
+        top: 1%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .services-sec h3 {
+        position: absolute;
+        top: 5.5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 36px;
+    }
+
+    .services-sec h4 {
+        color: white;
+        position: absolute;
+        top: 4.9%;
+        left: 62.8%;
+        font-weight: 100;
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .services-sec .row {
+        display: flex;
+        /* transform: translate(-50%, -50%); */
+        padding-top: 5%;
+    }
+
+
+
+    .services-sec .card{
+        height: 220px;
+        width: 350px;
+        border-color: rgba(0, 0, 0, 0.359);
+    }
+
+
+    .services-sec .card-title {
+        font-size: 22px;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .services-sec .card-text {
+        font-size: 16px;
+        font-family: poppins-semibold;
+        overflow-wrap: break-word;
+    }
+
+
+    .services-sec .img-abs {
+        position: absolute;
+        top: 78.5%;
+        left: 42%;
+        transform: translate(-98%, -50%);
+    }
+
+
+    /*End  services-sec responsive*/
+
+
+
+    /* blog section responsive */
+
+    .blog-section .section-content .cards{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+    .blog-section{
+        height: 100%;
+        padding-bottom: 5%;
+        padding-top: 5%;
+
+    }
+
+    /*End blog section responsive */
+
+
+    /* about section responsive */
+
+
+
+    .About-G3A{
+        height: 80vh;
+        width: 100%;
+        /* margin-top: 5rem;
+        margin-left: 4rem; */
+
+        padding-top: 2rem;
+        padding-left: 4rem;
+        position: relative;
+
+
+        .row1{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 3rem;
+
+
+            .video{
+                flex: 1 1 28rem;
+                box-shadow:10px 10px rgb(37, 37, 57);
+
+                video{
+                    width: 100%;
+                    height: 100%;
+                }
+
+            }
+
+            .content{
+                flex: 1 1 41rem;
+
+            }
+
+
+        }
+
+        .btns a{
+            display: inline-block;
+            margin-right: 1rem;
+            padding: 0.3rem 0.5rem;
+            margin-bottom: 1.1em;
+            border: 1px solid rgb(37, 37, 57);
+            border-radius: 3px;
+            color: rgb(37, 37, 57);
+            text-decoration: none;
+            transition: all 0.3s ease;
+
+            &:hover{
+                background-color: rgb(37, 37, 57);
+                color: white;
+            }
+
+        }
+
+        .content img{
+
+            height:130px
+        }
+
+    .About-G3A .headline{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        padding-left: 1rem;
+        border-left: 0.8rem solid rgb(37, 37, 57);
+    }
+    }
+
+
+
+     /*End about section responsive */
+
+
+
+
+
+
+
+}
 
 
 
