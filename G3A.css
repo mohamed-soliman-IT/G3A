@@ -1222,6 +1222,8 @@ header .nav-item:focus {
  }
 
 /* Extra large devices (large desktops, 1200px and up) */
+
+/* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
     /* info section responsive */
@@ -1257,7 +1259,8 @@ header .nav-item:focus {
     /* services-sec responsive*/
 
     .services-sec {
-        height: 70vh;
+        height: 80vh;
+        margin-bottom: 70px;
 
 
     }
@@ -1290,14 +1293,16 @@ header .nav-item:focus {
     .services-sec .row {
         display: flex;
         /* transform: translate(-50%, -50%); */
-        padding-top: 5%;
+        padding-top: 10%;
     }
 
 
 
     .services-sec .card{
-        height: 220px;
+        height: 200px;
         width: 350px;
+        margin-right: 260px;
+        margin-left: 85px;
         border-color: rgba(0, 0, 0, 0.359);
     }
 
@@ -1349,13 +1354,14 @@ header .nav-item:focus {
 
 
     .About-G3A{
-        height: 80vh;
+        height: 100%;
         width: 100%;
         /* margin-top: 5rem;
         margin-left: 4rem; */
 
         padding-top: 2rem;
-        padding-left: 4rem;
+        padding-left: 1rem;
+        margin-bottom: 50px;
         position: relative;
 
 
@@ -1410,7 +1416,7 @@ header .nav-item:focus {
 
     .About-G3A .headline{
         margin-top: 2rem;
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
         padding-left: 1rem;
         border-left: 0.8rem solid rgb(37, 37, 57);
     }
@@ -1427,6 +1433,9 @@ header .nav-item:focus {
 
 
 }
+
+
+
 
 
 
