@@ -737,7 +737,7 @@ header .nav-item:focus {
         padding-top: 5rem;
         padding-bottom: 5rem;
 
-        padding-left: 0.8rem;
+        padding-left: 10px;
         position: relative;
     }
 
