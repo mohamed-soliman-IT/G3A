@@ -1222,8 +1222,6 @@ header .nav-item:focus {
  }
 
 /* Extra large devices (large desktops, 1200px and up) */
-
-/* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
     /* info section responsive */
@@ -1293,7 +1291,7 @@ header .nav-item:focus {
     .services-sec .row {
         display: flex;
         /* transform: translate(-50%, -50%); */
-        padding-top: 10%;
+        padding-top: 8%;
     }
 
 
@@ -1433,9 +1431,6 @@ header .nav-item:focus {
 
 
 }
-
-
-
 
 
 
