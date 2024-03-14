@@ -653,7 +653,7 @@ header .nav-item:focus {
 
     .services-sec h3 {
         position: absolute;
-        top: 3.5%;
+        top: 5%;
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 18px;
