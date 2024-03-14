@@ -591,6 +591,10 @@ header .nav-item:focus {
 /* Extra small devices (phones, less than 576px) */
 @media (max-width: 575.98px) {
 
+    body{
+        overflow-x:hidden;
+    }
+
 
     /* home section responsive */
 
